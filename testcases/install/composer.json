@@ -1,5 +1,5 @@
 {
-  "name": "studyportals/product-deploy",
+  "name": "studyportals/testacase",
   "require": {
     "aws/aws-sdk-php": "^3"
   }
