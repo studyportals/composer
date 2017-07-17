@@ -1,4 +1,4 @@
-# @studyportals/composer@v1.0.2
+# @studyportals/composer@v1.0.3
 
 <a href="https://www.npmjs.com/package/@studyportals/composer" title="View this project on NPM" target="_blank"><img src="https://img.shields.io/npm/v/@studyportals/composer.svg?style=flat" alt="NPM version" /></a>
 <a href="https://www.npmjs.com/package/@studyportals/composer" title="View this project on NPM" target="_blank"><img src="https://img.shields.io/npm/l/@studyportals/composer.svg?style=flat" alt="NPM license" /></a>
@@ -44,4 +44,4 @@ The installation will complete, without applying any changes, when no
 | [opts.cwd] | <code>string</code> | <code>&quot;process.cwd()&quot;</code> | Directory in which to execute composer install. |
 
 
-_README.md generated at: Wed Jul 12 2017 14:35:09 GMT+0800 (China Standard Time)_
+_README.md generated at: Mon Jul 17 2017 13:28:05 GMT+0200 (W. Europe Daylight Time)_
