@@ -2,12 +2,17 @@
 
 const chai = require('chai');
 const composer = require('./../index');
-const rimraf = require('@studyportals/product-deploy/lib/rimraf');
+const rimraf = require('rimraf');
 
 const CWD = `./testcases/install`;
 
 const deleteVendorFolder = function(){
-	return rimraf(`${CWD}/vendor`);
+
+	return new Promise((resolve, reject) =>{
+		rimraf(`${CWD}/vendor`, function(err){
+			(err) ? reject(err) : resolve();
+		});
+	});
 };
 
 before(deleteVendorFolder);
