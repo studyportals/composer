@@ -8,6 +8,8 @@ const CWD = `./testcases/install`;
 
 const deleteVendorFolder = function(){
 
+	this.timeout(5000);
+
 	return new Promise((resolve, reject) =>{
 		rimraf(`${CWD}/vendor`, function(err){
 			(err) ? reject(err) : resolve();
